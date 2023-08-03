@@ -4,104 +4,92 @@
     <title>Anders Newgard Portfolio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
   </head>
+  
   <body>
-    <!-- Header -->
     <header>
-      <h1>Anders Newgard</h1>
-      <h3>Welcome! Stay a while! Click on some stuff! It might take you somewhere!</h3>
+      <div>
+        <h1>Anders Newgard</h1>
+        <h2>Welcome! Stay a while! Click on some stuff! It should take you somewhere!</h2>
+      </div>
+      
+      <nav>
+        <a href="#about">About Me</a>
+        <a href="#Work">Work</a>
+        <a href="#contact">Contact Me</a>
+        <a href="https://o365coloradoedu-my.sharepoint.com/:w:/g/personal/anne9707_colorado_edu/EWaWQPzE-VJGkBWTvgbHxNMBhJI6YoZP9VzygtnwrZ2ndw?e=TPrQvp">Resume</a>
+      </nav>
     </header>
 
-    <!-- Navbar -->
-    <nav>
-      <a href="#about-me">About Me</a>
-      <a href="#">Tablet</a>
-      <a href="#">Toilet Paper</a>
-      <a href="#">Wooden Spoons</a>
-    </nav>
-
-    <!-- Body -->
-    <main>
-      <!-- Sidebar -->
-      <aside>
-        <h2>About Me</h2>
-      </aside>
-      <!-- Product Cards -->
-      <div class="information">
-        </section>
-        <section class="card" id="about-me">
+    <main class="pagewrap">
+      <section class ="page-section" id="about">
+        <div>
+          <h2>About Me</h2>
+        </div>
+        
+        <div>
           <p>Hi everybody! My name is Anders but most people just call me Ders. I grew up in Chapel Hill, North Carolina and spent most of my life thinking I was going to be a veterinarian. 
             I went to Colorado University and graduated with a degree in Pre-Veterinarian Sciences. I moved back to NC after graduating, and worked in a lab for animal behavior for a bit. 
-            After about 3 months of this, I quit, and got a job as a barista! I've been in the specialty coffee industry ever since, and now I manage a coffee shop here in Chapel Hill. 
+            After about 3 months of this, I quit, and got a job as a barista! I've been in the specialty coffee industry ever since, and now I manage a coffee shop in Chapel Hill. 
             I love coffee, animals, technology, and a bunch of other things. I grew up a huge PC gamer, overall nerd, and have wanted to break into coding for along time now.
-            I am extremely excited to have the opportunity to be apart of this program, and look forward to growing as a developer.</p>
-        </section>
-        <section class="card">
-          <header>Toilet Paper</header>
-          <img
-            src="./assets/images/toilet-paper.jpg"
-            alt="rolls of toilet paper in a basket"
-          />
-          <p>Price: $30</p>
-        </section>
-        <section class="card">
-          <header>Wooden Spoons</header>
-          <img
-            src="./assets/images/wooden-spoons.jpg"
-            alt="4 wooden spoons with different seasonings"
-          />
-          <p>Price: $10</p>
-        </section>
-      </div>
+            I am extremely excited to have the opportunity to be apart of this program, and look forward to learning and mastering the necessary tools to become a professional developer.
+          </p>
+        </div>
+      </section>
+
+      <section class="page-section" id="Work">
+        <h2>Work</h2>
+        <div class = "flexcontainer">
+
+          <a href="https://scholar.colorado.edu/concern/undergraduate_honors_theses/th83kz86d" class="Flex-Item" id="Thesis">
+            <div>
+              <h3>Distance Gradient of Vocalization Discrimination and Aggression in Neighborhoods of Rufous-and-White Wrens (Thryophilus Rufalbus)</h3>
+              <span>Undergraduate Honors Thesis</span>
+            </div>
+          </a>
+
+          <a href="#" class="Flex-Item" id="epic-thing">
+            <div>
+              <h3>Place Holder For Epic Website</h3>
+              <span>HTML/CSS</span>
+            </div>
+          </a>
+
+          <a href="#" class="Flex-Item" id="thrill-thing">
+            <div>
+              <h3>Epic Placeholder for High Thrill Application</h3>
+              <span>HTML/CSS/JS</span>
+            </div>
+          </a>
+
+          <a href="#" class="Flex-Item" id="cool-thing">
+            <div>
+              <h3>The coolest webpage to ever be created on this earth</h3>
+              <span>Somehow done with Python</span>
+            </div>
+          </a>
+
+        </div>
+      </section>
+
+      <section class="page-section contact" id="contact">
+        <h2>Contact Me</h2>
+        <div>
+          <address>
+            <a href="tel:+19195555555">919.555.5555</a>
+            <a href="mailto:anewgard41@gmail.com">anewgard41@gmail.com</a>
+            <a href="https://github.com/anewgard41">GitHub</a>
+          </address>
+        </div>
+      </section>
     </main>
-
-    <!-- Footer -->
-    <footer>
-      <h3>
-        Open Chrome DevTools --> Toggle device toolbar --> Resize the browser
-        window!
-      </h3>
-    </footer>
-  </body>
-</html>
-
-
-
-
-
-
-<!-- reference code
-
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <title>Welcome Anders Newgard Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-  </head>
-
-  <body>
-    <header>
-      <h1>Anders Newgard</h1>
-      <h3>Contact Me</h3>
-        <li><strong>Email:</strong><a href="#">anewgard41@gmail.com</a>      <strong>Github:</strong><a href="#">anewgard41</a>     <strong>Portfolio:</strong><a href="#">Coming Soon!</a></li>
-     <header>
-
-    <section class="biography">
-      <p>Hi everybody! My name is Anders but most people just call me Ders. I grew up in Chapel Hill, North Carolina and spent most of my life thinking I was going to be a veterinarian. 
-        I went to Colorado University and graduated with a degree in Pre-Veterinarian Sciences. I moved back to NC after graduating, and worked in a lab for animal behavior for a bit. 
-        After about 3 months of this, I quit, and got a job as a barista! I've been in the specialty coffee industry ever since, and now I manage a coffee shop here in Chapel Hill. 
-        I love coffee, animals, technology, and a bunch of other things. I grew up a huge PC gamer, overall nerd, and have wanted to break into coding for along time now. I am extremely excited to be in this bootcamp!
-      </p>
-
-    </section>
- 
-
-    <img src="assets/images/IMG_0863.jpg" alt="Portrait Picture of me! Anders Newgard"/>
-
   </body>
 
 </html>
 
--->
+
+
+
+

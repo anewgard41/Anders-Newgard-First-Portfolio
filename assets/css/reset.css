@@ -1,0 +1,53 @@
+/* Reset CSS file. First wild card selector resets the padding and margins of the entire webpage to 0, and ensures that the box sizing is standardized. */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Here we give the body element a parent height to compare against. */
+
+  html {
+    height: 100%;
+  }
+  
+  /* Setting the font family and line height here just in case certain fonts are supported by particular browsers */
+
+  body {
+    min-height: 100%;
+    line-height: 1;
+    font-family: sans-serif;
+  }
+  
+  /* Reseting the font size of the headings */
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: 100%;
+  }
+  
+/* Here we match the font of particular elements to match the rest of the page */
+
+  input,
+  select,
+  option,
+  optgroup,
+  textarea,
+  button,
+  pre,
+  code {
+    font-size: 100%;
+    font-family: inherit;
+  }
+  
+  /* Finally we remove default bullet points from lists */
+
+  ol,
+  ul {
+    list-style: none;
+  }
