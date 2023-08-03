@@ -16,7 +16,7 @@ body {
   color: var(--dark);
 }
 
-/* introduced a font family, margin, min viewport height, a base line-height, and background color for the page. */
+/* introduced a font family, margin, min viewport height, a base line-height, and background color for the entire page. */
 
 header {
   background: var(--grey);
@@ -34,7 +34,7 @@ justify-content: end;
 align-items: flex-end;
 }
 
-/* Made the nav element a flex item, gave it flex properties, and sent it to the end of it's primary axis so it would be viewed on the left hand side. */
+/* Made the nav element a flex item, gave it flex properties, and sent it to the end of it's primary axis so it would be viewed on the right hand side. */
 
 img {
   width:150px;
@@ -97,7 +97,7 @@ p{
   padding: 20px;
 }
 
-/* Class selector: flex container and it's properties */
+/* Class selector flexcontainer and it's properties */
 
 .flex-item {
   display: flex;
